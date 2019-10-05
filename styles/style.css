@@ -1,0 +1,293 @@
+* {
+    text-align: center;
+    font-family: poppins;
+    width: auto;
+}
+
+body {
+    top: 50px;
+    display: grid;
+    grid-gap: 50px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+p {
+    font-weight: 400;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-gap: 150px;
+    width: auto;
+    margin: 0px 50px;
+}
+
+.header p {
+    width: 500px;
+    margin: 40px auto;
+}
+
+.head {
+    width: auto;
+}
+
+.head-img {
+    float: left;
+    padding: 10px 15px;
+    left: 5px;
+}
+
+.head-button {
+    float: right;
+    background-color: white;
+    border: 2px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    right: 5px;
+}
+
+.mockup {
+    max-width: 1000px;
+}
+
+.button {
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    width: 300px;
+}
+
+.stat {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 300px;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.stat img {
+    float: left;
+}
+
+.stat h2 {
+    margin: 0px;
+}
+
+.stat p {
+    font-size: 16px;
+    color: grey;
+}
+
+.top-wave {
+    background-image: url('../images/bg-section-top-mobile-1.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 99%;
+    width: 1440px;
+    height: 100px;
+}
+
+.blue-div {
+    display: grid;
+    background-color: hsl(207, 100%, 98%);
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    padding: auto;
+    position: relative;
+}
+
+.blue-div:nth-of-type(odd) {
+    background-color: white;
+}
+
+.blue-div-img {
+    margin: auto;
+    width: 500px;
+}
+
+.blue-div-tex {
+    margin: auto;
+    width: 500px;
+}
+
+.blue-div-tex p {
+    text-align: left;
+}
+
+.blue-div-tex h2 {
+    text-align: left;
+}
+
+.buttom {
+    background-color: hsl(192, 100%, 9%);
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-column-gap: 500px;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    color: white;
+    margin: auto;
+}
+
+.buttom p {
+    text-align: left;
+}
+
+.buttom-left {
+    margin: auto;
+    float: left;
+}
+
+.buttom-right {
+    margin: auto;
+}
+
+.buttom img {
+    width: 325px;
+    height: 50px;
+    filter: contrast(0) brightness(100);
+    float: left;
+    margin-bottom: 20px;
+}
+
+.buttom a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttom [class=icon] {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.icones {
+    float: left;
+    font-size: 30px;
+    color: hsl(192, 100%, 9%);
+    margin: auto;
+}
+
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: hsl(192, 100%, 9%);
+}
+
+.buttom-right {
+    margin: auto;
+}
+
+.buttom-right h2 {
+    text-align: left;
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 0px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    float: left;
+}
+
+input[type=submit] {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 0px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    float: right;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: auto;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    p {
+        font-weight: 400;
+    }
+    .stat {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 100px;
+        font-size: 50px;
+        justify-content: center;
+    }
+    .blue-div {
+        background-color: hsl(207, 100%, 98%);
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 50px;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .blue-div-tex p {
+        text-align: center;
+    }
+    .blue-div-tex h2 {
+        text-align: center;
+    }
+    .white-div {
+        background-color: white;
+    }
+    .blue-div-tex {
+        grid-row: 1;
+    }
+    .buttom {
+        display: grid;
+        grid-template-columns: 60%;
+        grid-column-gap: 400px;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .buttom-right {
+        grid-row: 1;
+    }
+    input[type=text] {
+        width: 100%;
+    }
+}
